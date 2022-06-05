@@ -30,7 +30,7 @@ public class MyObj implements Comparable<MyObj>, Serializable {
 
     @Override
     public int compareTo(MyObj o) {
-        return o.getName().compareTo(this.getName());
+        return o.getAge().compareTo(this.getAge());
     }
 
     @Override
